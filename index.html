@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+  </head>
+  <body>
+<nav class="navbar">
+  <a href="index.html">Quiz</a>
+  <a href="words.html">Kwakwala Words</a>
+</nav>
+
+  <div class="header">
+    <h1>Yo, nu gwa'um (Hi my name is): KwaKwaBalas</h1>
+     <p>La'mas gwatla tla <span id="nameInput"></span>? (Are you ready ___ ?):
+
+    <div id="container">
+
+      <div id="start">Kwakwala Multiple Choice Quiz</div>
+      <div id="quiz" style="display: none">
+
+          <div id="question"></div>
+          <div id="qImg"></div>
+          <div id="choices">
+
+              <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+
+              <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+
+              <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+          </div>
+
+    <div id="progress"></div>
+
+    <div id="scoreContainer" style="display: none"></div>
+
+    </div>
+
+<script src="scripts.js"></script>
+
+<!-- image credit goes to pexels.com -->
+
+  </body>
+  </html>
